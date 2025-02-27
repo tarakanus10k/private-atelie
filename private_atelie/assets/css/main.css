@@ -1,0 +1,92 @@
+/*registration form*/
+.reg_form a {
+    font-size: 1.2em;
+    transition: all .3s;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.reg_form a:hover {
+    margin-left: 120px;
+    transition: all .3s;
+}
+
+
+/*user information*/
+.user_information a {
+    font-size: 1.2em;
+    transition: all .3s;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.user_information a:hover {
+    margin-left: 120px;
+    transition: all .3s;
+}
+
+
+/*nav-button for employee*/
+.nav_pan_emp {
+    text-align: right;
+}
+
+
+/*pricelist*/
+.category_card {
+    overflow: hidden;
+    position: relative;
+}
+.category_card a {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+}
+.category_card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.category_card img:hover {
+    transform: scale(1.1);
+}
+.category_card a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+
+/*updateorder*/
+.update_form a {
+    font-size: 1.2em;
+    transition: all .3s;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.update_form a:hover {
+    margin-left: 120px;
+    transition: all .3s;   
+}
+
+
+/*гиперссылки в index*/
+.alter_giper a {
+    text-decoration: none;
+    color: #212529;
+    transition: color 0.3s ease;
+}
+.alter_giper a:hover {
+    text-decoration: none;
+    color: #575757;
+}
+.alter_giper_footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.alter_giper_footer a:hover {
+    text-decoration: none;
+    color: antiquewhite;
+}
